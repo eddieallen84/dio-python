@@ -39,7 +39,7 @@ while True:
             print("Operação falhou! Número máximo de saques excedido")
         elif valor > 0:
             saldo -= valor
-            extrato += f'Saque: R${valor:.2f} '
+            extrato += f'Saque de: R${valor:.2f}\n'
             numero_saques += 1
         else:
             print('Operação falhou! O valor informado é inválido.')
