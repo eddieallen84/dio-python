@@ -39,3 +39,4 @@ print(pares1)
 
 quadrado = [numero ** 2 for numero in numeros]
 print(quadrado)
+

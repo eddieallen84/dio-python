@@ -24,3 +24,4 @@ print(matriz[-1][-1])
 print(frutas.count("morango"))
 print(frutas.index("abacaxi"))
 print(len(frutas))
+
