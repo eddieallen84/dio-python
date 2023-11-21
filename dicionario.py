@@ -30,3 +30,10 @@ print(extra)
 
 for key, valor in contatos.items():
     print(key ,valor)
+
+lista = dict.fromkeys(["nome", "telefone"])
+print (lista)
+
+print(contatos.get("eddie.xd@gmail.com"))
+print(contatos.get("chave", {}))
+print(contatos.keys())
