@@ -61,3 +61,20 @@ exibir_poema("Sexta feira, 24 de novembro de 2023",
  "If the implementation is hard to explain, it's a bad idea",
  "If the implementation is easy to explain, it may be a good idea",
  "Namespaces are one honking great idea -- let's do more of those!", autor="Tim Peters", ano="1999")
+
+def somar(a, b):
+    return a+b
+def subtrair(a, b):
+    return a-b
+def teste (a, b):
+    return a * 2 + b * 3
+def exibir_resultado(a, b, funcao):
+    resultado = funcao(a, b)
+    print(f"O resultado da operação é {resultado}")
+
+exibir_resultado(10, 15, somar)
+exibir_resultado(20, 5, subtrair)
+exibir_resultado(5, 3, teste)
+
+op = somar
+print(op(2, 50))
