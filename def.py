@@ -78,3 +78,6 @@ exibir_resultado(5, 3, teste)
 
 op = somar
 print(op(2, 50))
+
+
+teste 123
